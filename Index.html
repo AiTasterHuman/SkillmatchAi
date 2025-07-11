@@ -1,0 +1,93 @@
+# Save the updated HTML content into a downloadable file
+html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Taster Human - Founder of SkillMatch AI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      background: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+      border-radius: 12px;
+      margin-top: 40px;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #0066cc;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 14px;
+      text-align: center;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>AI Taster Human</h1>
+    <p><strong>Founder of SkillMatch AI</strong></p>
+
+    <h2>Vision</h2>
+    <p>
+      Imagine a world where AI interviews you, understands your intelligence, and instantly connects you to the right job — even directly to CEOs. SkillMatch AI is not just a job platform — it’s a revolution in talent discovery using AI-powered real-time scoring and logical evaluation.
+    </p>
+
+    <h2>Startup Concept PDF</h2>
+    <p>
+      Click below to view the concept document describing the full vision, flow, and funding plan:
+    </p>
+    <a class="button" href="SkillMatch_AI_Startup_Concept_Copyright.pdf" target="_blank">📄 View SkillMatch AI PDF</a>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:arathore0032@gmail.com">arathore0032@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/abhay-rathore-164397372" target="_blank">Abhay Rathore</a></p>
+
+    <div class="footer">
+      © 2025 AI Taster Human. All rights reserved. This concept is shared publicly for feedback, not for unauthorized commercial use. | Built with help from AI Being Human
+    </div>
+  </div>
+</body>
+</html>
+"""
+
+# Save to a file
+file_path = "/mnt/data/index.html"
+with open(file_path, "w", encoding="utf-8") as f:
+    f.write(html_content)
+
+file_path
